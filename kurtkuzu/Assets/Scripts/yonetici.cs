@@ -18,7 +18,7 @@ public class yonetici : MonoBehaviour
     }
     void dusman_Olustur()
     {
-        int dgn = Random.Range(0, 9);
+        int dgn = Random.Range(0, 8);
 
         GameObject yeni_dusman = Instantiate(dusman, DogmaNoktasi[dgn].position, Quaternion.identity);
     }

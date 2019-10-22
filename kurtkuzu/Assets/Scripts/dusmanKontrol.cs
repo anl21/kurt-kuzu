@@ -20,6 +20,5 @@ public class dusmanKontrol : MonoBehaviour
     void Update()
     {
         takip_et.destination = hedef_kup.transform.position;
-        //Instantiate(gameObject, transform.position, transform.rotation);
     }
 }
