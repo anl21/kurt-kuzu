@@ -34,12 +34,14 @@ public class bullet : MonoBehaviour
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
     }
 
+
     void HitTarget()
     {
         GameObject effectIns = (GameObject)Instantiate(impacteffect, transform.position, transform.rotation);
         Destroy(effectIns, 2f);
-        //Destroy(target.gameObject);
+        Destroy(target.gameObject);
 
         Destroy(gameObject);
     }
+
 }
