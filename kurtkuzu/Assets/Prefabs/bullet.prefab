@@ -16,7 +16,11 @@ GameObject:
   - component: {fileID: -784543162562064496}
   m_Layer: 0
   m_Name: bullet
+<<<<<<< HEAD
   m_TagString: otokursun
+=======
+  m_TagString: kursun
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,6 +113,7 @@ MonoBehaviour:
   speed: 70
   impacteffect: {fileID: 1188110959066327011, guid: 4f471dbb2b1c4c94ab93c8d07a7bb3cb,
     type: 3}
+<<<<<<< HEAD
 --- !u!96 &-784543162562064496
 TrailRenderer:
   serializedVersion: 2
@@ -232,3 +237,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+=======
+  dusman: {fileID: 175628745119725983, guid: 8e49a6e7a332a1042b2c84b8b09120d8, type: 3}
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b

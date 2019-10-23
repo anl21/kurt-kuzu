@@ -30,6 +30,7 @@ public class dusmanKontrol : MonoBehaviour
     void Update()
     {
         takip_et.destination = hedef_kup.transform.position;
+<<<<<<< HEAD
        // Can();
     }
 
@@ -40,5 +41,7 @@ public class dusmanKontrol : MonoBehaviour
             Destroy(gameObject);
             GameManager.instance.score += 1;
         }
+=======
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
     }
 }

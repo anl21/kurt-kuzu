@@ -14,7 +14,10 @@ GameObject:
   - component: {fileID: 175628745119725969}
   - component: {fileID: 175628745119725968}
   - component: {fileID: 175628745119725970}
+<<<<<<< HEAD
   - component: {fileID: -2383053634200278485}
+=======
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
   m_Layer: 0
   m_Name: dusman
   m_TagString: Enemy
@@ -69,7 +72,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -127,12 +133,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175628745119725983}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IsTrigger: 0
+=======
+  m_IsTrigger: 1
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
   m_Enabled: 1
   m_Radius: 0.49999994
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &-2383053634200278485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +159,5 @@ MonoBehaviour:
   fracturedPrefab: {fileID: 175628745119725983}
   noScale: 1
   extraFoce: 1
+=======
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b

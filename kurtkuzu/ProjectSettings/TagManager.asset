@@ -6,7 +6,10 @@ TagManager:
   tags:
   - Enemy
   - kursun
+<<<<<<< HEAD
   - otokursun
+=======
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
   layers:
   - Default
   - TransparentFX

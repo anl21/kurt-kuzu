@@ -47,12 +47,16 @@ public class bullet : MonoBehaviour
     {
         GameObject effectIns = (GameObject)Instantiate(impacteffect, transform.position, transform.rotation);
         Destroy(effectIns, 2f);
+<<<<<<< HEAD
         dusmanKontrol.instance.can -= 1;
        if(dusmanKontrol.instance.can == 0)
         {
             Destroy(target.gameObject);
             GameManager.instance.score += 1;
         }
+=======
+        Destroy(target.gameObject);
+>>>>>>> c04447a96d27d9411d6c87a58a9c981d2acbcc1b
 
         Destroy(gameObject);
     }
